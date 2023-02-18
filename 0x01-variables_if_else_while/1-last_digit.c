@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- *Description - checks on the last digits in the assigned variable
- * Return: Always 0 (Success)
+* main - Entry point
+*Description - checks on the last digits in the assigned variable
+* Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ if (m > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, m);
 }
-else if ( m < 6 && m !=0)
+else if (m < 6 && m !=0)
 {
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
 else
