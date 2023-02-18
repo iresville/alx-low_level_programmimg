@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-main - Entry point
-prints alphabets in lower case\n
-Return: Always 0 (Success)
+*main - Entry point
+*prints alphabets in lower case\n
+*Return: Always 0 (Success)
 */
 int main(void)
 {
