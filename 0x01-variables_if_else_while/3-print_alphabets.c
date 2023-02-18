@@ -5,8 +5,6 @@
 *Return: Always 0 (Success)
 */
 int main(void)
-{
-int n;  
 {	
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
