@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- main - Entry point
- Description: prints lowercase alphabets in reverse order
- Return: Always 0 (success)
- */
+*main - Entry point
+*Description: prints lowercase alphabets in reverse order
+*Return: Always 0 (success)
+*/
 int main(void)
 {
 int a;
@@ -14,3 +14,4 @@ putchar(a);
 }
 putchar('\n');
 return (0);
+}
