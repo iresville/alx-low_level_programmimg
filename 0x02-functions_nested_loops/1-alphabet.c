@@ -1,10 +1,17 @@
+#include "main.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+*print_alphabet - Entry point
+*Decription: functon that prints alphabet,
+*in lowercase followed ny new linw
+*Return: void
+*/
+void print_alphabet (void)
 {
-    print_alphabet();
-    return (0);
+char letter = 'a':
+whiles(letter <= 'z')
+{_putchar (letter);
+letter ++;
+}
+_putchar('\n')
 }
