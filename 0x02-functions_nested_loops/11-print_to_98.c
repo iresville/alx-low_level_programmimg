@@ -1,15 +1,19 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*main - check the code
-*Return: Always 0.
-*/
-int main(void)
+ * print_to_98 - prints numbers to 98
+ * @n: starting integer
+ *
+ * Description: prints all natural number from n - 98
+ *
+ * Return: void
+ */
+void print_to_98(int n)
 {
-print_to_98(0);
-print_to_98(98);
-print_to_98(111);
-print_to_98(81);
-print_to_98(-10);
-return (0);
+while (n != 98)
+{
+printf("%d, ", n);
+n += (n < 98) ? 1 : -1;
+}
+printf("%d\n", n);
 }
