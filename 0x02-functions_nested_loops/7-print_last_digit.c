@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -14,4 +15,3 @@ last_digit = -last_digit;
 }
 putchar(last_digit + '0');
 return (last_digit);
-}
