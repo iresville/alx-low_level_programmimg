@@ -5,13 +5,13 @@
 *@n: n is an integer
 *Return: the last digit
 */
-int print_last_digits(int num)
+int print_last_digit(int num)
 {
-int last = num % 10;
+int last_digit = num % 10;
 if (num < 0)
 {
-last_digits = -last_digits;
+last_digit = -last_digit;
 }
-_putchar(last + '0');
-return (last);
+_putchar(last_digit + '0');
+return (last_digit);
 }
