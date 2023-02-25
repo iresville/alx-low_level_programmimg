@@ -1,16 +1,16 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _isupper - checks is a character is uppercase
- * @c: carrier integer variable
- * Return: 1 if true, 0 if false
+ * _isdigit - check if numbers are 0 - 9
+ * @c: char to be checked
+ *
+ * Return: 0 or 1
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 65 && c <= 90)
-	{
+	if (c >= '0' && c <= '9')
 		return (1);
-	}
-	return (0);
+	else
+		return (0);
 }
